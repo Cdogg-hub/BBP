@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BBP - Brothers' Best Pools</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f9ff;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .gallery, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #004a80;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BBP - Brothers' Best Pools</h1>
+    <p>Quality Pool Services by Local Family Pros</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to BBP – Brothers' Best Pools. We’re a family-run business built by two brothers who love the sun, water, and honest hard work. With years of experience in pool cleaning, maintenance, and remodeling, we bring trust, precision, and a personal touch to every backyard.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Pool Cleaning</h3>
+        <p>Weekly, bi-weekly, or one-time professional cleaning services.</p>
+      </div>
+      <div class="card">
+        <h3>Repairs & Maintenance</h3>
+        <p>Pumps, filters, leaks—if it's broken, we’ll fix it right.</p>
+      </div>
+      <div class="card">
+        <h3>Pool Remodeling</h3>
+        <p>Bring new life to your pool with resurfacing, lighting, and tile updates.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <div class="card"><img src="https://via.placeholder.com/300x200" alt="Pool 1" style="width:100%"></div>
+      <div class="card"><img src="https://via.placeholder.com/300x200" alt="Pool 2" style="width:100%"></div>
+      <div class="card"><img src="https://via.placeholder.com/300x200" alt="Pool 3" style="width:100%"></div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>"BBP completely transformed our old pool! Reliable, friendly, and affordable."</p>
+        <strong>- Sarah J.</strong>
+      </div>
+      <div class="card">
+        <p>"Our go-to pool guys every summer. Can’t recommend them enough."</p>
+        <strong>- Mark P.</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: (123) 456-7890<br>Email: info@bbppools.com<br>Serving Florida and surrounding areas.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BBP - Brothers' Best Pools. All rights reserved.</p>
+  </footer>
+</body>
+</html>
